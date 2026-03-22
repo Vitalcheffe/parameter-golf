@@ -1,13 +1,3 @@
-"""
-Parameter Golf - Ultimate V3
-Target: Beat 1.1213 BPB
-
-Combines all winning techniques from:
-- PR #398 (val_bpb=1.1213): EMA + TTT all blocks unfrozen
-- PR #415 (val_bpb=1.1216): Two-phase TTT, FA3
-- PR #180 (val_bpb=1.1428): int5 MLP, BigramHash(10240)
-"""
-
 from __future__ import annotations
 import copy,glob,io,math,os,random,subprocess,sys,time,uuid,zlib
 from pathlib import Path
